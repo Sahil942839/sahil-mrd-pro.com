@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<title>Admission</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/Islamia Logo 2.jpeg">
+		<link rel="stylesheet" href="css/bootstrap.css">	
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+	</head>
+	
+<body>
+	<!---Start of Header Section---->
+	<div class="container-fluid header">
+		<div class="row">
+		<div class="col-sm-5">
+		<h3>Our Admission Way</h3>
+		</div>
+			<div class="col-sm-7">	
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="course.html">Courses</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	<!----end of Header Section---->
+	
+			<div class="slider-about">
+			<img src="images/addmission.jpg" width="100%" height="300px">
+			</div>
+		
+		<!----end of banner-about---->
+		
+		
+		<!----start of about content--->
+			<div class="container">
+				<h3 class="text-center">Fill the Form</h3>
+				<div class="row">
+					<form>
+						<div class="row">
+							<div class="col-sm-6">
+							<label for="name">Name</label>
+								<input type="text" class="form-control" name="name" placeholder="Enter Your Name" pattern="[a-z A-Z]+"
+    oninvalid="setCustomValidity('Plz enter only Alphabets ')"
+    onchange="try{setCustomValidity('')}catch(e){}" required="required">
+							</div>
+						
+						<div class="col-sm-6">
+							<label for="name">Last Name</label>
+								<input type="text" class="form-control" name="lname" placeholder="Enter Your last Name" pattern="[a-z A-Z]+"
+    oninvalid="setCustomValidity('Plz enter only Alphabets ')"
+    onchange="try{setCustomValidity('')}catch(e){}" required="required">
+							</div>
+						</div><br>
+						<div class="row">
+							<div class="col-sm-6">
+							<label for"email">Email</label>
+							<input type="text" class="form-control" name="email" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required">
+							</div>
+							<div class="col-sm-6">
+							<label for"email">phone</label>
+							<input type="text" class="form-control" name="phone" placeholder="Enter your phone" pattern="[0-9]+"
+    oninvalid="setCustomValidity('Plz enter numbers only ')"
+    onchange="try{setCustomValidity('')}catch(e){}" maxlength="11" minlenght="11" required="required">
+							</div>
+						</div><br>
+						<label for"address">Address</label>
+						<input type="text" class="form-control" name="address" placeholder="your Address"><br>
+					<label for="courses">Courses</label>
+						<select class="form-control" name="course">
+						<option>Select course</option>
+						<option>web desging & development</option>
+						<option>Graphic Desiging</option>
+						<option>Ms office</option>
+						<option>English Language</option>
+						<option>Diploma In Information Technology</option>
+						</select><br>
+						
+						<input type="submit" class="btn btn-Success center-block" name="submit" value="submit">
+					</form>
+				</div>
+			</div>
+		<!---end of about content------->
+		
+		
+		<!---start of Footer Section----->
+			<div class="container-fluid footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<h3>About us</h3>
+							<p>Sahil Khan is a high Secondary school student specializing in Computer Science at Punjab College. With a Diploma in Information Technology (DIT) and extensive experience in web designing, he excels in creating dynamic and user-friendly websites. Sahil is also a proficient English speaker, having achieved a B2 level English certificate under the tutelage of an English professor from England. His strong communication skills further enhance his ability to collaborate effectively in diverse environments. </p>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="t">Links</h3>
+								<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="course.html">Courses</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+						</div>
+						<div class="col-sm-4 connect">
+						<h3>Connect us</h3>
+						<span class="glyphicon glyphicon-earphone"></span><p>+923105494135</p><br>
+						<span class="glyphicon glyphicon-map-marker"></span><p>Pakistan,Peshawar,Mardan (Punjab College Gujjar garhi Mardan)</p><br>
+						<span class="glyphicon glyphicon-envelope"></span><p>jehanzebali891@gmail.com</p>
+						
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		<!---end of footer section------->
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
+	
+</html>
